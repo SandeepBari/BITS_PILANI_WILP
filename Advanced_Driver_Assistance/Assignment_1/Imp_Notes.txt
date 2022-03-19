@@ -1,0 +1,42 @@
+2021HT65677@wilp.bits-pilani.ac.in
+BARI SANDEEP HARIRAM	
+2021HT65677	ADAS1	
+IMG_162
+25th March 2022		
+
+--------------------------------------------------------------------------------------------
+
+ADAS1
+172.16.105.153
+Bits@123
+
+--------------------------------------------------------------------------------------------
+
+cd Desktop/ADAS/jetson-inference/build/aarch64/bin
+./detectnet-console.py images/IMG_001.jpg OUTPUT_001.jpg
+eog OUTPUT_001.jpg
+
+./detectnet-console.py images/IMG_162.jpg SandeepBari_2021HT65677_Output_Image.jpg
+eog SandeepBari_2021HT65677_Output_Image.jpg
+--------------------------------------------------------------------------------------------
+
+cd Desktop
+
+python my_detect.py
+
+--------------------------------------------------------------------------------------------
+
+•
+Always select COM 4 port for uploading the program to Arduino board, since other ports is
+used for camera and motor control.
+•
+Always open USS sensor_ movement_controle application then Arduino application.
+•
+Never change the Pin arrangement in code.
+•
+Kindly follow the document shared with you separately for each experiments before performing
+experiments.
+•
+If you are facing IP camera issue kindly refer the document .
+•
+Never Logout of the Ubuntu system. Just close the “VNC” remote application		
